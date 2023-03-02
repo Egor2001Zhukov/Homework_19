@@ -92,3 +92,11 @@ Content-Type: application/json
 ###
 
 DELETE http://127.0.0.1:10001/movies/21
+
+###
+
+POST http://127.0.0.1:10001/auth/
+Accept: application/json
+Content-Type: application/json
+
+{"username": "eg", "password": "T4ejhR3s6Kltyc27lSt2FUVRJNoUXm+mohYfzCcLuX0="}
